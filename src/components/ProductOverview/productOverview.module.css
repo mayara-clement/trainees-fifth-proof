@@ -1,0 +1,8 @@
+.productOverview {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 780px;
+  margin: 32px auto 0;
+  gap: 16px;
+}

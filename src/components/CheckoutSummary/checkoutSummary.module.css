@@ -1,0 +1,96 @@
+.checkoutSummary {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+
+  width: 332px;
+  height: max-content;
+  background: #ffffff;
+  padding: 24px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  margin-top: 32px;
+}
+.checkoutSummary div {
+  width: 100%;
+}
+
+.containerSubtotal {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  gap: 12px;
+}
+
+.containerSubtotal div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkoutSummary .descriptionSummary {
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.shipping,
+.discount,
+.subtotal {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.discount {
+  color: #eb0045;
+}
+
+.containerTotal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerTotal div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.total {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #101010;
+}
+
+.installments {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 8px;
+}
+
+.installments em {
+  font-style: normal;
+  color: #101010;
+}
+
+.buttonCheckout {
+  padding: 12px 24px;
+  background: #2e44a1;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+  margin-top: 24px;
+}

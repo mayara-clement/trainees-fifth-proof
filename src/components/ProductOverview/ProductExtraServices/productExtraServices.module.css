@@ -1,0 +1,27 @@
+.productExtraServices {
+  display: flex;
+  justify-content: space-between;
+  widht: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 16px;
+}
+.productExtraServices button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  height: 36px;
+  border: 1.5px solid #2e44a1;
+  border-radius: 5px;
+  color: #2e44a1;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.productExtraServices a {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #2e44a1;
+}

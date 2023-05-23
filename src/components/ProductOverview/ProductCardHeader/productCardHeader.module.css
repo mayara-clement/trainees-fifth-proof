@@ -1,0 +1,14 @@
+.productCardHeader {
+  display: grid;
+  grid-template-columns: 1fr 96px 140px;
+  gap: 24px;
+  text-align: left;
+  
+}
+
+.productCardHeader span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #555555;
+}

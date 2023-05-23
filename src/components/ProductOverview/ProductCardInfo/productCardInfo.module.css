@@ -1,0 +1,100 @@
+.productCardInfo {
+  display: grid;
+  grid-template-columns: 1fr 96px 140px;
+  gap: 24px;
+  text-align: left;
+  padding: 24px 0;
+}
+
+.infoProduct {
+  display: flex;
+}
+
+.infoProduct div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.quantity select {
+  width: 96px;
+  height: 36px;
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+}
+
+.infoProduct {
+  gap: 16px;
+}
+
+.infoProductName {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #101010;
+}
+
+.infoProductPick {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #555555;
+}
+
+.infoProductPick span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.005em;
+  color: #555555;
+}
+
+.infoProductPick span em {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.005em;
+  color: #2e44a1;
+}
+
+.priceWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #101010;
+  margin-bottom: 8px;
+}
+
+.listPrice {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.discount {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  padding: 2px 8px;
+  background: #eb0045;
+  border-radius: 500px;
+  color: #ffffff;
+}
